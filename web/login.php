@@ -9,7 +9,6 @@ if (isset($_POST['login'])) {
     $username = $_POST['username'];
     $password = $_POST['password'];
     
-    // You can customize the expected username and password here.
     $expected_username = '123';
     $expected_password = '123';
     
